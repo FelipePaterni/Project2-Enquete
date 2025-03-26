@@ -1,64 +1,117 @@
 body {
-    margin: 0;
-    box-sizing: border-box;
-    color: #fff;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ccc;
-  }
-  
-  .container {
-    background: linear-gradient(to bottom, #200d24 0%, #631f6f 100%);
-    margin: auto;
-    margin-top: 1rem;
-    width: 75%;
-    border-radius: 7px;
-    overflow: hidden;
-  }
-  
-  .header {
-    padding: 1rem;
-    text-align: center;
-  }
-  .header-title {
-    color: #fecd23;
-    font-weight: 500;
-    font-size: 1.5rem;
-    margin-bottom: 1.2rem;
-  }
-  
-  .form-vote {
-    box-sizing: border-box;
-    margin: 0.9rem auto;
-    background: linear-gradient(to bottom, #631f6f 0%, #200d24 100%);
-    border-radius: 7px;
-    width: 95%;
-    padding: 0.9rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .form-title {
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.4rem;
-    letter-spacing: 0.05rem;
-    margin-bottom: 0.5rem;
-    text-align: center;
-  }
-  input {
-    width: 70%;
-    height: 1.4rem;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border-radius: 5px;
-    border: 0;
-    margin: 0.8rem;
-  }
-  
-  input:focus {
-    outline: none;
-    box-shadow: 0 0 10px #000000;
-  }
-  
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ccc;
+}
+
+.container {
+  background: linear-gradient(to bottom, #200d24 0%, #631f6f 100%);
+  margin: auto;
+  margin-top: 1rem;
+  width: 700px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.header {
+  padding: .8rem;
+  text-align: center;
+}
+.header-title {
+  color: #fecd23;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+p{
+  margin: 0 10px;
+  margin-bottom: 1px;
+}
+
+.form-vote {
+  box-sizing: border-box;
+  margin: 0.9rem auto;
+  background: linear-gradient(to bottom, #631f6f 0%, #200d24 100%);
+  border-radius: 7px;
+  width: 95%;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+input {
+  width: 70%;
+  height: 1.4rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 0;
+  margin: 0.8rem;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #000000;
+}
+
+.cards-vote {
+  display: flex;
+  flex-direction: row;
+  padding: .8rem;
+
+  width: 100%;
+  justify-content:space-evenly ;
+}
+.card {
+  box-sizing: border-box;
+  text-align: center;
+  border-width: 12px 10px;
+  border-style: solid;
+  border-color: #332988;
+  background: linear-gradient(to bottom, #3c5bef 0%, #74cfff 100%);
+  padding: 30px 10px ;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.card-title
+{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+  margin: .5rem 1rem;
+  color: #fff;
+  font-size: 1rem;
+}
+object{
+  width: 8rem;
+}
+
+button{
+  text-align: center;
+  background-color: #200D23;
+  color: #fff;
+  border: 0;
+  font-weight: 500;
+  padding: .8rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
